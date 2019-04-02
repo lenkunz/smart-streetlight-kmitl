@@ -3,7 +3,7 @@ const {Datastore} = require('@google-cloud/datastore')
 
 const app = express();
 
-const server = app.listen(8080, '0.0.0.0', () => {
+const server = app.listen(80, '0.0.0.0', () => {
     let addressObject = server.address();
     let {address, port} = addressObject;
 
